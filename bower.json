@@ -3,11 +3,19 @@
   "version": "0.1.0",
   "description": "Expose page/document visibility as Polymer element",
   "main": "page-visibility.html",
+  "keywords": [
+    "web-components",
+    "polymer"
+  ],
   "authors": [
     "herr kaste <herr.kaste@gmail.com>"
   ],
   "license": "BSD",
-  "homepage": "",
+  "homepage": "https://github.com/kaste/page-visibility",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaste/page-visibility.git"
+  },
   "ignore": [],
   "dependencies": {
     "polymer": "^1.4.0",

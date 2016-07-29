@@ -1,7 +1,7 @@
 {
   "name": "page-visibility",
   "version": "0.1.0",
-  "description": "TBD",
+  "description": "Expose page/document visibility as Polymer element",
   "main": "page-visibility.html",
   "scripts": {
     "test": "wct",
