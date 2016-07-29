@@ -1,0 +1,19 @@
+{
+  "name": "page-visibility",
+  "version": "0.1.0",
+  "description": "Expose page/document visibility as Polymer element",
+  "main": "page-visibility.html",
+  "authors": [
+    "herr kaste <herr.kaste@gmail.com>"
+  ],
+  "license": "BSD",
+  "homepage": "",
+  "ignore": [],
+  "dependencies": {
+    "polymer": "^1.4.0",
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.2.2",
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.2.5"
+  }
+}
