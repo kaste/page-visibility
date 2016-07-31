@@ -1,0 +1,33 @@
+<!--
+@license
+Copyright (c) 2016 herr.kaste <herr.kaste@gmail.com>. All rights reserved.
+This code may only be used under the BSD style license.
+-->
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../../Pony/Pony.decorators.html">
+
+
+<script>
+  import {computed,
+          notify, reflect,
+          nonVisual} from 'Pony.decorators'
+
+  //    isVisible : () -> Boolean
+  const isVisible = () => !document.hidden
+
+  Polymer({
+    @nonVisual
+    is: 'page-visibility',
+
+
+    @computed.fromEvent('document visibilitychange',
+        {reflect, notify,
+         type: Boolean,
+         value: isVisible  // <- the initial value
+        })
+    visible: isVisible
+
+
+  })
+
+</script>
