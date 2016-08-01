@@ -18,7 +18,8 @@
   },
   "ignore": [],
   "dependencies": {
-    "polymer": "^1.4.0"
+    "polymer": "^1.4.0",
+    "Pony": "kaste/Pony"
   },
   "devDependencies": {
     "web-component-tester": "^4.2.2",
